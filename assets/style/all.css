@@ -14465,7 +14465,7 @@ a {
   display: block;
   width: 174px;
   height: 42px;
-  background-image: url(../../../assets/images/logo.svg);
+  background-image: url(../../assets/images/logo.svg);
   background-size: cover;
   background-position: center center;
   text-indent: 101%;
@@ -14477,7 +14477,7 @@ a {
   .navbar-brand {
     width: 24px;
     height: 24px;
-    background-image: url(../../../assets/images/logo2.svg);
+    background-image: url(../../assets/images/logo2.svg);
   }
 }
 
