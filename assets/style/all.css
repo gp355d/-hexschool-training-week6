@@ -14955,16 +14955,6 @@ a {
   content: '所有課程列表';
 }
 
-.all-courser-btn:hover {
-  border: 1px solid #fff !important;
-  background: #000;
-  color: #fff;
-}
-
-.all-courser-btn:hover::before {
-  content: '立即預約';
-}
-
 .advantage-card {
   width: 264px;
   position: absolute;
@@ -15071,6 +15061,14 @@ a {
   }
 }
 
+.class-card {
+  border: 1px solid transparent;
+}
+
+.class-card:hover {
+  border: 1px solid #62DB54;
+}
+
 .join {
   background-color: #202020;
   padding: 51px 48px;
@@ -15090,24 +15088,8 @@ a {
   content: '聯絡我們';
 }
 
-.booking-btn:hover {
-  border: 1px solid #fff !important;
-  background: #000;
-  color: #fff;
-}
-
-.booking-btn:hover::before {
-  content: '立即預約';
-}
-
 .booking-now {
   border: 0;
-}
-
-.booking-now:hover {
-  background: #2D2D2D !important;
-  border: 1px solid #fff;
-  color: #fff;
 }
 
 .slider .swiper {
@@ -15375,6 +15357,10 @@ footer {
   width: 32px;
   height: 32px;
   text-align: center;
+}
+
+.tobuy:hover {
+  color: #62DB54;
 }
 
 .timeline {
